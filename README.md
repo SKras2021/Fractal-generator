@@ -4,6 +4,7 @@ DESCRIPTION
 Original program designed to generate multi-colored images of fractal structures in square, triangle and round fields.
 
 GENERATION ALGORITHM
+
 1.Creating shape
 2.Moving shape
 
