@@ -1,16 +1,16 @@
 # Fractal generator
 
-DESCRIPTION
+DESCRIPTION  
 Original program designed to generate multi-colored images of fractal structures in square, triangle and round fields.
 
-GENERATION ALGORITHM
+GENERATION ALGORITHM                                                 
 
-1.Creating shape
-2.Moving shape
+1.Creating shape                                                 
+2.Moving shape                                                                                                  
 
-Starting with a field 500 by 500 pixels
-//Creating shape
-1.A random untaken tile is picked.
+Starting with a field 500 by 500 pixels                                                                                                  
+//Creating shape                                                                                                                                   
+1.A random untaken tile is picked.                                                             
 2.A color is picked randomly (red, green blue).
 3.The chosen tile is colored with the chosen color.
 4.Color is picked again. If the newly chosen color differs from the previously chosen one, movement starts. (Generation of the shape is over).
@@ -21,7 +21,7 @@ Starting with a field 500 by 500 pixels
 2.If the shape can not move because one or more of the tiles are taken, then the cycle is done. Otherwise the entire shape is moving 1 pixel in the said direction 
 and these steps are reapeated until the shape collides with the border or with another shape.
 
-HOW TO USE
+HOW TO USE                                                                                                                                                     
 In this project there are 3 .java files. CirclePixel - for round field, tringlePixel - for triangle field and pixelNEW1000 for default square field. Start with 
 pixelNEW1000 to see the classic experience.
 In each of these files there is java code which, upon compiling, launches the window of the program.
